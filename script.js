@@ -33,7 +33,7 @@ function checkGuess() {
         if (userGuess < randomNumber) {
             lowOrHi.textContent = 'Последнее предположение было слишком низким!';
         } else if (userGuess > randomNumber) {
-            lowOrHi.textContent = 'последнее предположение было слишком высоким!';
+            lowOrHi.textContent = 'Последнее предположение было слишком высоким!';
         }
     }
 
